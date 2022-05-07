@@ -1,0 +1,61 @@
+#bell-animation:hover i,
+#bell-animation:focus i {
+  animation: bellshake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  backface-visibility: hidden;
+  transform-origin: top right;
+}
+
+@keyframes bellshake {
+  0% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-12deg);
+  }
+  45% {
+    transform: rotate(11deg);
+  }
+  60% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(12deg);
+  }
+  85% {
+    transform: rotate(-11deg);
+  }
+  92% {
+    transform: rotate(11deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#home-animation:hover i,
+#home-animation:focus i {
+  animation: expand 1.0s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  backface-visibility: hidden;
+  transform-origin: top right;
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+25% {
+    opacity: 0;
+}
+  50% {
+    transform: translateX(0);
+opacity: 1;
+}
+
+75% {
+    opacity: 1;
+}
+}

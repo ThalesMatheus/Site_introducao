@@ -1,0 +1,100 @@
+.content {
+    display: flex;
+}
+
+.bside {
+    background-color: var(--bg-primary);
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 95%;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    }
+    
+    .plp, .trends {
+    display: flex;
+    height: 20rem;
+    width: 95%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    margin-right: 10%;
+    background-color: rgb(138, 132, 132);
+    }
+    
+    #impt-plp {
+        width: 50px;
+        border-radius: 100px;
+    }
+    
+    .plp-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-left: 10px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .space {
+        width: 80%;
+        height: auto;
+    }
+    
+    .follow {
+        border: none;
+        width: 60px;
+        height: 20px;
+    }
+    
+     .plp-info::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    }
+    
+    .plp-info:first-child::before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    
+    #reload {
+        border: 0ch;
+        padding: 10px 10px;
+        height: auto;
+        width: 100px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: var(--moment-p);
+        color: white;
+    }
+    
+    
+    #reload:hover{
+        background-color: var(--moment-b);
+    
+    }
+    
+    #rel {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #text {
+        font-display: auto;
+        text-align: center;
+        margin-left: 1rem;
+    }

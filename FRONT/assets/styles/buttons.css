@@ -1,0 +1,24 @@
+@media only screen and (min-width: 800px) {
+
+.btn_post {
+    display: flex;
+width: 10rem;    
+height: 3rem;
+margin-top: 1rem;
+align-items: center;
+justify-content: center;
+background-color: var(--moment-p);
+border-radius: 10px;
+border: none;
+font-size: 18px;
+color: rgba(255, 255, 255, 0.836);
+cursor: pointer;
+}
+
+.aside .btn_post {
+margin-left: 1rem;}
+
+.btn_post:hover {
+background-color: (--moment-b);
+}
+}

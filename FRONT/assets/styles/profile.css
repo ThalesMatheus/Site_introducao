@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.profile {
+    position: relative;
+    padding: 2rem;
+    background-color: var(--bg-primary);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile #icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    max-width: 45px;
+
+}
+.profile .nickname {
+    display: inline;
+}
+.hashtag {
+    position: absolute;
+    bottom: 10px;
+    font-size: 8px;
+    left: 40%;
+    color: (--bg-three);
+
+}
+
+.nickname {
+    position: absolute;
+    bottom: 25px;
+    left: 35%;
+    font-size: 15px;
+}
+

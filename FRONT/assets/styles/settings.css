@@ -1,0 +1,54 @@
+body, html {
+    overflow: hidden;
+}
+.config-color {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.themes {
+    margin-top: 1rem;
+
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.themes button {
+    margin-top: 1rem;
+
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.config-color span {
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+#gre {
+    background-color: #18f08b;
+}
+
+#ree {
+background-color: #ff3c78 ;
+}
+
+#blu {
+background-color:#186ef0 ;
+}
+
+#purp {
+background-color: #9146FF;
+}
+
+#themeButton {
+background-color:#1f1f1f;
+}

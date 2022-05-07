@@ -1,0 +1,159 @@
+.content {
+    display: grid;
+    grid-template-rows: 15rem 4rem auto;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0.5rem;
+    grid-template-areas: "fstory n1story n2story n3story lstory";
+    margin-left: 1rem;
+}
+
+
+.fstory {
+    grid-area: fstory;
+    
+}
+
+.fstory, .n1story, .n2story, .n3story, .n4story, .lstory {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+
+.lstory {
+    grid-area: lstory;
+}
+
+
+
+#ic-inside {
+    margin-top: 10px;
+    max-width: 4rem;
+    transition: 500ms;
+}
+/*tamanho da foto*/
+
+.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 25));
+    border-radius: 10px;
+    color: white;
+}
+
+.story .msg-sty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50%;
+    transition: 200ms;
+}
+
+.force-circle {
+    border-radius: 100px;
+}
+
+.fstory {
+background:url(./assets/img/BG\ 1.jpg) no-repeat center;
+background-size: 100%;
+
+}
+
+.n2story {
+background: url(./assets/img/BG\ 4.png) no-repeat center;
+background-size: 100%;
+}
+
+.n3story {
+    background: url(./assets/img/BG\ 5.webp) no-repeat center;
+    background-size: 100%;
+
+}
+
+.n4story {
+    background: url(./assets/img/19241.png) no-repeat center;
+    background-size: 100%;
+
+}
+
+.lstory {
+    background: url(./assets/img/Tokyo-Revengers-Phone-Wallpaper.jpg) no-repeat center;
+    background-size: 100%;
+
+}
+
+#ic-inside:hover {
+    max-width: 5rem;
+
+}
+
+.msg-sty:hover {
+    width: 150px;
+    height: 80%;
+
+}
+
+
+.st {
+    width: 100%;
+    height: 100%;
+    transition: 500ms;
+    z-index: 5;
+}
+
+.st:hover {
+    height: 150%;
+    width: 120%;
+    z-index: 10;
+}
+
+.st:hover {
+    background-size: 150%;
+
+}
+
+
+.st:hover #ic-inside    {
+    max-width: 5rem;   
+    z-index: 10;
+}
+
+.ar {
+    opacity: 0;
+    transform: rotate(-180deg);
+    transition: 500ms;
+
+}
+
+.st:hover .ar {
+    opacity: 1;
+    margin-top: 18%;
+    transform: rotate(360deg);
+
+}
+
+.st:hover #views {
+    opacity: 1;
+    margin-top: 18%;
+    transform: rotate(360deg);
+
+}
+
+#views {
+    opacity: 0;
+    transition: 200ms;
+}
+

@@ -1,0 +1,43 @@
+.dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --bg-three: #1d1e28;
+}
+
+.light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+    --bg-three: #ececec;
+}
+
+.solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+    --bg-three: #f5e1f1;
+}
+
+.purp {
+    --moment-p: #9146FF;
+    --moment-b: #6649b8;
+}
+
+.gre {
+    --moment-p: #18f08b;
+    --moment-b: #19ad68;
+}
+
+.ree {
+    --moment-p: #ff3c78;
+    --moment-b: #7e0e30;
+}
+
+.blu {
+    --moment-p: #186ef0;
+    --moment-b: #1940ad;
+}
