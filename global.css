@@ -1,0 +1,35 @@
+#main-cont {
+    background-image: url(./assets/img/photo-1519638399535-1b036603ac77.jpg);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fstory {
+    background:url(./assets/img/BG\ 1.jpg) no-repeat center;
+    background-size: 100%;
+    
+    }
+    
+    .n2story {
+    background: url(./assets/img/BG\ 4.png) no-repeat center;
+    background-size: 100%;
+    }
+    
+    .n3story {
+        background: url(./assets/img/BG\ 5.webp) no-repeat center;
+        background-size: 100%;
+    
+    }
+    
+    .n4story {
+        background: url(./assets/img/19241.png) no-repeat center;
+        background-size: 100%;
+    
+    }
+    
+    .lstory {
+        background: url(./assets/img/Tokyo-Revengers-Phone-Wallpaper.jpg) no-repeat center;
+        background-size: 100%;
+    
+    }
+    
